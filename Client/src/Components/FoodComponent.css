@@ -1,0 +1,37 @@
+.food-component{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   padding: 2em 8em;
+}
+
+.select-element{
+    align-self: flex-end;
+  
+}
+
+.category-title{
+    font-size: 1.2rem;
+}
+
+
+@media (max-width:1250px){
+    .select-element{
+        font-size:1rem;
+        align-self: flex-start;
+    }
+    .category-title{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:750px){
+
+    .food-component{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2em 1em;
+     }
+    
+}

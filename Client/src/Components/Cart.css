@@ -1,0 +1,181 @@
+.cart-items{
+    width: 100vw;
+    height: 100vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+
+}
+.cart-items-title{
+    text-align: center;
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.cart-items-subtitle{
+    margin-top: 2em;
+    font-size: 2.5rem;
+    text-align: left;
+
+}
+
+.product-cart{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1.2em;
+}
+
+.cartHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.2em;
+    font-size: 2rem;
+    background-color: silver;
+    border: 2px solid black;
+
+}
+.cart-item{
+    width: 100%;
+    background-color: #288BAB;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding: 1.2em;
+    font-size: 2rem;
+  
+
+}
+
+
+.product-title,.item-title{
+  width: 15%;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+   
+}
+.buttons>*{
+    margin-left: 0.2em;
+}
+
+
+.addDelBtn{
+    border: none;
+    font-size: 2rem;
+    padding: 0.2em 0.4em;
+    background: none;
+}
+.addDelBtn:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.no-item-show{
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+.goBackBtn{
+    background-color: #288BAB;
+    padding: 0.6em 1em;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    align-self: center;
+    color:white;
+}
+.goBackBtn:hover,.finalOrderBtn:hover{
+    cursor: pointer;
+    color:black;
+}
+
+.total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em;
+    font-size: 2rem;
+    background-color:silver;
+}
+
+.endBtns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.finalOrderBtn{
+    background-color: #32CD32;
+    border: none;
+    padding: 1em 1em;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color:white;
+
+}
+@media (max-width:800px){
+    
+    .cart-items-title{
+        text-align: center;
+        font-size: 2.5rem;
+        text-transform: capitalize;
+    }
+.cart-items-subtitle{
+    margin-top: 2em;
+    font-size: 1.5rem;
+    text-align: left;
+
+}
+.cartHeader{
+    font-size: 1rem;
+    background-color: silver;
+   
+}
+.cart-item{
+    font-size: 1rem;
+    align-items: center;
+  
+}
+
+.addDelBtn{
+    border: none;
+    font-size: 1rem;
+    background: none;
+}
+.no-item-show{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em;
+    font-size: 1rem;
+    background-color:silver;
+}
+
+.goBackBtn{
+    background-color: #288BAB;
+    padding: 0.6em 1em;
+    text-transform: capitalize;
+    font-size: 1rem;
+    align-self: center;
+    margin-top: 1em;
+    border: nonw;
+    color:white;
+}
+
+.finalOrderBtn{
+    background-color: #32CD32;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+}
+
+}
+

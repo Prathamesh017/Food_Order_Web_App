@@ -1,0 +1,21 @@
+service: aws-node-http-api-project
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: ap-south-1
+
+functions:
+  getDataFunction:
+    handler: index.getData
+    events:
+      - httpApi:
+          path: /
+          method: GET
+    environment:
+      region: "ap-south-1"
+      accessKeyId: "AKIARSR3W2CPPL3UHHJF"
+      secretAccessKey: "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"
+      bucketName: "food-images-bucker"
+      folderName: "images/"
