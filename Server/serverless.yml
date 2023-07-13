@@ -13,9 +13,4 @@ functions:
       - httpApi:
           path: /
           method: GET
-    environment:
-      region: "ap-south-1"
-      accessKeyId: "AKIARSR3W2CPPL3UHHJF"
-      secretAccessKey: "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"
-      bucketName: "food-images-bucker"
-      folderName: "images/"
+   
